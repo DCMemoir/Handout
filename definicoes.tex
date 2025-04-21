@@ -1,0 +1,55 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{textcmds}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{lipsum}
+
+%Def. Memoir
+\OnehalfSpacing
+\pagestyle{empty}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\headheight}{0in}
+
+%Info. cabeçalho.
+%Disciplinas de Língua Portuguesa
+\newcommand{\ptum}{Língua Portuguesa I}
+\newcommand{\ptdois}{Língua Portuguesa II}
+\newcommand{\pttres}{Língua Portuguesa III}
+\newcommand{\ptquatro}{Língua Portuguesa IV}
+%Outras disciplinas
+\newcommand{\disciplina}[1]{\noindent\large \textsc{\textbf{#1\\}}}
+%Prof. André Padilha
+\newcommand{\aapl}{André Padilha}
+%Outros professores/as
+\newcommand{\docente}[1]{\noindent\textsc{\normalsize\textbf{#1 \\}}}
+\newcommand{\estudante}[1]{\noindent\normalsize\textbf{Estudante:} #1\\}
+%\newcommand{\matricula}[1]{\noindent\normalsize\textbf{Matrícula:} #1\\}
+\newcommand{\curso}[1]{\noindent\normalsize\textbf{Curso/Turno:} #1\\}
+
+%Info. atividade.
+\newcommand{\atividade}[1]{
+	\vspace{5mm}
+	{\textsc{\textbf{Atividade:}}} {#1}
+	\ \\
+}
+
+\newcommand{\dataentrega}[1]{\indent\normalsize\textbf{Data de entrega:} #1}
+
+%Config. logo IFPE cabeçalho.
+\newcommand{\logo}{
+	\begin{minipage}{3cm}
+		\begin{flushright}
+			\includegraphics[scale=.15]{img/logo-ifpe.png}
+		\end{flushright}
+	\end{minipage}	
+}
+
+
+
+
+
+
